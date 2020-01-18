@@ -5,20 +5,19 @@ TITLE Combination Calculator     (comboCalculator.asm)
 ; Last Modified: 12/23/2019
 ; OSU email address: gellerw@oregonstate.edu
 ; 
-; Description: The program randomly generates combination problems (nCr) for a user to
-;			   solve. 
-;			   1) Displays an introduction with a brief overview of the program
-;			   2) Randomly generates and displays a combination problem
-;			   3) User is prompted to enter their answer to the problem, s/b unsigned int
-;			   4) The input validated and the user is reprompted until entry is valid
-;			   5) The program calculates the solution of the combination problem
-;			   6) The answer is displayed, the user's answer is compared to the solution,
-;			      and the program infroms the user if their answer was right or wrong.
-;			   7) The user is asked if they would like to solve another problem
-;			   8) The program loops to generate another problem if the user wants to solve
-;			      another problem (loop to step 2).
-;			   9) When the user is finished the number of correct and incorect answers
-;				  is displayed with a goodbye message.
+; Description: The program randomly generates combination problems (nCr) for a user to solve. 
+;					1) Displays an introduction with a brief overview of the program
+;					2) Randomly generates and displays a combination problem
+;					3) User is prompted to enter their answer to the problem, s/b unsigned int
+;					4) The input validated and the user is reprompted until entry is valid
+;					5) The program calculates the solution of the combination problem
+;					6) The answer is displayed, the user's answer is compared to the solution,
+;					   and the program infroms the user if their answer was right or wrong.
+;					7) The user is asked if they would like to solve another problem
+;					8) The program loops to generate another problem if the user wants to solve
+;					   another problem (loop to step 2).
+;					9) When the user is finished the number of correct and incorect answers
+;					   is displayed with a goodbye message.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
