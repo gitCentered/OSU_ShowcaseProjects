@@ -2,7 +2,7 @@ TITLE Combination Calculator     (CombinationCalculator.asm)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Author: Will Geller
-; Last Modified: 12/23/2019
+; Last Modified: 1/17/2020
 ; OSU email address: gellerw@oregonstate.edu
 ; 
 ; Description: The program randomly generates combination problems (nCr) for a user to solve. 
