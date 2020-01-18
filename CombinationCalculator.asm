@@ -403,14 +403,14 @@ combinations ENDP
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; PROCEDURE    : factorial
 ; DESCRIPTION  : Calculates the factorial of a positive integer using recursion. The base
-;		  	     case is when the integer is equal to 1.
-; RECEIVES	   : 1) Positive integer by val
-; 				 2) Offset for calculated solution, result by ref
-; RETURNS	   : Factorial of positive integer is stored in result
+;		 case is when the integer is equal to 1.
+; RECEIVES     : 1) Positive integer by val
+; 		 2) Offset for calculated solution, result by ref
+; RETURNS      : Factorial of positive integer is stored in result
 ;
 ; PRECONDITIONS: 1) The integer is a positive integer (>= 1)
-;				 2) The value at result is 0 when function is called
-; CHANGES	   : n/a
+;		 2) The value at result is 0 when function is called
+; CHANGES      : n/a
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 factorial PROC
@@ -429,17 +429,17 @@ factorial PROC
 	call		factorial				; Recursive procedure call
 	
 factorialReturn:
-	mov			eax, [edi]			; EAX - Recursive call return value
-	mov			ebx, [ebp + 12]			; EBX - Positive integer
-	mul			ebx				; Product is factorial of positive integer
+	mov		eax, [edi]				; EAX - Recursive call return value
+	mov		ebx, [ebp + 12]				; EBX - Positive integer
+	mul		ebx					; Product is factorial of positive integer
 
 ; For base case, value stored is 1 and returned
 baseReturn:
-	mov			[edi], eax			; Store factorial in result
+	mov		[edi], eax				; Store factorial in result
 
 	popad
 	leave
-	ret			8
+	ret		8
 factorial ENDP
 
 
@@ -535,9 +535,9 @@ getCharacter:
 
 validEntry:
 	call		CrLf
-	pop			edi
-	pop			eax
-	ret			4
+	pop		edi
+	pop		eax
+	ret		4
 anotherProblem ENDP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
