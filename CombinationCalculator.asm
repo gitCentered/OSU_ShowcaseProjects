@@ -1,4 +1,4 @@
-TITLE Combination Calculator     (comboCalculator.asm)
+TITLE Combination Calculator     (CombinationCalculator.asm)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Author: Will Geller
