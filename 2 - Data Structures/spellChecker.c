@@ -67,7 +67,6 @@ char* nextWord(FILE* file)
  */
 void loadDictionary(FILE* file, HashMap* map)
 {
-    // FIXME: implement
     assert(file != NULL && map != NULL);
     
     // Asssign word to first word & set starting value to 0 for all words
