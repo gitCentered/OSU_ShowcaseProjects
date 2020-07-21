@@ -9,3 +9,8 @@ Final Projects from OSU Courses
 2) CS271 Computer Architecture and Assembly - Combination Calculator [MASM]
     - Assembly Language for x86 Processors
     - Necessary include files can be found here: http://www.asmirvine.com/gettingStartedVS2019/index.htm#tutorial32
+
+3) CS344 Operating Systems - smallsh
+    - Linux Makefile Project
+    - Simple Shell in C
+    - C99 Standard
