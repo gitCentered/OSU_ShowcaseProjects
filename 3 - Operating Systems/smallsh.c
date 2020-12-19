@@ -219,7 +219,7 @@ void builtInFx(char** args, struct shell* vars){
 }
 
 /********************************************************************
- * Execute arguments in foreground via child process
+ * Redirect Foreground input/output
  *******************************************************************/
 void foreground(char** args, struct shell* vars){
     // Redirect input to file
@@ -257,7 +257,7 @@ void foreground(char** args, struct shell* vars){
 }
 
 /********************************************************************
- * Execute arguments in background via child process
+ * Redirect Background input/output
  *******************************************************************/
 void background(char** args, struct shell* vars){
     int srcFD;
