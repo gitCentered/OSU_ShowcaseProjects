@@ -2,15 +2,21 @@
 Final Projects from OSU Courses
 
 1) CS261 Data Structures - Hash Map ADT & Spell Checker [C]
-    - Linux Makefile Project
-    - Chaining Hash Map ADT
-    - C99 Standard
+    - Description : Chaining Hash Map ADT
+    - Project Type: C99 Linux Makefile
+    - Challenges  :
+    - Takeaways   :
     
 2) CS271 Computer Architecture and Assembly - Combination Calculator [MASM]
-    - Assembly Language for x86 Processors
-    - Necessary include files can be found here: http://www.asmirvine.com/gettingStartedVS2019/index.htm#tutorial32
+    - Description  : Combination Calculator
+    - Project Type : x86 Assembly (MASM) in Visual Studio
+    - Include Files: http://www.asmirvine.com/gettingStartedVS2019/index.htm#tutorial32
+    - Challenges   :
+    - Takeaways    :
+
 
 3) CS344 Operating Systems - smallsh [C]
-    - Linux Makefile Project
-    - Simple Shell in C
-    - C99 Standard
+    - Description : Simple shell with built-in functions
+    - Project Type: C99 Linux Makefile
+    - Challenges  :
+    - Takeaways   :
