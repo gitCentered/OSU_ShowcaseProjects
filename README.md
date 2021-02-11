@@ -10,5 +10,5 @@
     * *Project Type :* Visual Studio 2019 x86 Assembly Build
 
 1. Operating Systems
-    * *Description :* a simple shell with built-in functions [C]
+    * *Description :* A simple shell with built-in functions [C]
     * *Project Type :* C99 Linux Makefile
