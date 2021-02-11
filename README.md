@@ -1,4 +1,4 @@
-# OSU_Portfolio
+# OSU Portfolio
 ### Course Portfolio Projects
 
 1. Data Structures
