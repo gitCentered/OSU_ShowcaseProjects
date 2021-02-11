@@ -23,7 +23,7 @@
  * is null terminated. Returns NULL after reaching the end of the file.
  * @param file
  * @return Allocated string or NULL.
- */
+ ****************************************************************************/
 char* nextWord(FILE* file)
 {
     int maxLength = 16;
@@ -64,7 +64,7 @@ char* nextWord(FILE* file)
  * Loads the contents of dictionary.txt into the HashMap ADT.
  * @param file
  * @param map
- */
+ ****************************************************************************/
 void loadDictionary(FILE* file, HashMap* map)
 {
     assert(file != NULL && map != NULL);
@@ -91,7 +91,7 @@ void loadDictionary(FILE* file, HashMap* map)
  * only alpha characters are considered valid words. 
  * @param userInput
  * @return boolean indicating if input is a word
-*/
+ ****************************************************************************/
 int isWord(const char* userInput)
 {
     // Create loop control variables
@@ -116,7 +116,7 @@ int isWord(const char* userInput)
  * @param usrWord user input
  * @param mapWord word from dictionary
  * @return Levenshtein Distance between the two words
-*/
+ ****************************************************************************/
 int calcDistance(const char* usrWord, const char* mapWord)
 {
     // Get the length of both words plus one for matrix dimensions and declare matrix
@@ -193,7 +193,7 @@ int calcDistance(const char* usrWord, const char* mapWord)
  * @param altWords array of HashLinks
  * @param usrWord user input
  * @return altWords, an array of 5 alternate words
- */
+ ****************************************************************************/
 void spellCheck(HashMap* map, HashLink** altWords, const char* usrWord)
 {
     // Set max to 0 and count to 0
@@ -266,10 +266,10 @@ void spellCheck(HashMap* map, HashLink** altWords, const char* usrWord)
  * @param argc
  * @param argv
  * @return
- */
+ ****************************************************************************/
 int main(int argc, const char** argv)
 {
-    /*** HELPER CODE *************************************************************/
+    /*** HELPER CODE ********************************************************/
     HashMap* map = hashMapNew(1000);
 
     // Open dictionary file and load to hash map
@@ -283,8 +283,8 @@ int main(int argc, const char** argv)
     // Create input buffer and loop flag
     char inputBuffer[256];
     int quit = 0;
-    
-    /*** IMPLEMENT *************************************************************/
+
+    /*** IMPLEMENT **********************************************************/
     while (!quit)
     {
         //Get input up to newline & discard newline
