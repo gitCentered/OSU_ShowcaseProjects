@@ -1,7 +1,7 @@
-# Combination Calculator [MASM]
-### CS271 Computer Architecture & Assembly
+# Computer Architecture & Assembly
+### Combination Calculator [MASM]
 
-**Project Type :** x86 Assembly in Visual Studio 2019
+**Project Type :** Visual Studio 2019 x86 Build
 
 **Include Files :** http://www.asmirvine.com/gettingStartedVS2019/index.htm#tutorial32
 
