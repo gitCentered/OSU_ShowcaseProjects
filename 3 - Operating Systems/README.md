@@ -1,4 +1,4 @@
-# CS344 Operating Systems
+# Operating Systems
 ### smallsh [C]
 
 **Description :** Simple shell with built-in functions
