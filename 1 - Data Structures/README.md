@@ -1,6 +1,11 @@
-# Hash Map ADT & Spell Checker [C]
-### CS261 Data Structures
-#### Project Type: C99 Linux Makefile
+# Data Structures
+### Hash Map ADT & Spell Checker [C]
+
+**Project Type :** C99 Linux Makefile
+
+*__Instructions__*
+1. Compile using `make spellChecker` command
+1. Run using `spellChecker` command
 
 *__Challenges__*
 * hashMap.c
