@@ -8,9 +8,6 @@ hashMap.o : hashMap.h hashMap.c
 
 spellChecker.o : spellChecker.c hashMap.h
 
-memCheckSpellChecker :
-	valgrind --tool=memcheck --leak-check=yes spellChecker
-
 clean :
 	-rm *.o
 	-rm spellChecker
