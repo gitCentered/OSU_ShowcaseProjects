@@ -2,13 +2,13 @@
 ### Course Portfolio Projects
 
 1. Data Structures
-    * Hash Map ADT & Spell Checker [C]
-    * Project Type: C99 Linux Makefile
+    * *Description :* Hash Map ADT & Spell Checker [C]
+    * *Project Type :* C99 Linux Makefile
 
 1. Computer Architecture & Assembly
-    * Description : Combination Calculator [MASM]
-    * Project Type : x86 Assembly in Visual Studio 2019
+    * *Description :* Combination Calculator [MASM]
+    * *Project Type :* Visual Studio 2019 x86 Assembly Build
 
-1. Operating Systems - smallsh [C]
-    * Description : Simple shell with built-in functions
-    * Project Type: C99 Linux Makefile
+1. Operating Systems
+    * *Description :* a simple shell with built-in functions [C]
+    * *Project Type :* C99 Linux Makefile
