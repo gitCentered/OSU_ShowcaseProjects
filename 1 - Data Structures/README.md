@@ -9,7 +9,7 @@
 
 *__Challenges__*
 * hashMap.c
-  * `Put()` & `Remove()` - Looping array & traversing linked list
+  * `hashMapPut()` & `hashMapRemove()` - Looping array & traversing linked list
   * `hashMapRemove()` - Filling void after removing a link
 
 * spellCecker.c
